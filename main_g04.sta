@@ -1,0 +1,97 @@
+
+ROM used: 6778 (83%)
+          6863 (84%) including unused fragments
+
+          2 Average locations per line
+          10 Average locations per statement
+
+RAM used: 172 (47%) at main() level
+          326 (89%) worst case
+
+Stack used: 8 worst case (out of 8 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  729   314  47  main_g04.c
+   19     0   0  main.h
+  310     0   0  C:\Archivos de programa\PICC\devices\16F877A.h
+   37     0   0  C:\Archivos de programa\PICC\drivers\stdio.h
+  409     0   0  C:\Archivos de programa\PICC\drivers\string.h
+   28     0   0  C:\Archivos de programa\PICC\drivers\stddef.h
+   28     0   0  C:\Archivos de programa\PICC\drivers\ctype.h
+ 1273   359  53  C:\Archivos de programa\PICC\drivers\stdlib.h
+----- -----
+ 2833   673 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+1    383   6  16  1882 11.0  atoi32
+0     46   1  13             @MUL3232
+0    113   2  14             @DIVS3232
+1    390   6  36   552  8.3  ProdEsc_FP
+2     99   1  13   519  3.9  lcd2
+3    357   5  13   561  6.1  display_FP
+1     28   0   6   139  4.7  ini_cola
+0     83   1  11   231  5.0  cola_FP
+0    646  10  64   861  7.5  lineal_FP
+0     78   1  22   310  4.0  GdeZ
+1    492   7  13  2103  6.9  velocidad
+1    539   8  13  2470  6.9  posicion
+ Inline        1   777  5.6  ContVel
+ Inline        1   494  5.0  ContPos
+2    124   2   9   480  3.8  RefVel
+1    127   2   9   494  3.8  RefPos
+0     57   1   0   575  6.2  TIMER0_isr
+2   1510  22   4  3788  9.3  RDA_isr
+0     46   1   0             @const433
+0     62   1   0             @const434
+0     24   0   0             @const435
+0     47   1   0             @const436
+0     79   1   0             @const437
+0     24   0   0             @const438
+0     75   1   0             @const439
+0     27   0   0             @const440
+0     41   1   0             @const441
+1     68   1  13             @DIV3232
+2    154   2  12             @PRINTF_L32D_9600_62_63
+0     79   1   0             @const447
+0     42   1   0             @const449
+0     27   0   0             @const450
+0     42   1   0             @const451
+0     51   1   0             @const452
+0     11   0   0             @const453
+0     28   0   0             @const454
+0     28   0   0             @const455
+0     25   0   0             @const456
+0     30   0   0             @const457
+0     37   1   0             @const458
+0     37   1   0             @const459
+0     37   1   0             @const460
+2    111   2   0  1005  3.9  AD
+2      8   0   0             @goto11630
+3    362   5   1  1513  4.4  MAIN
+0     35   1   0             @const466
+
+Program metrics:
+    Functions               18
+    Statements              673
+    Comments                972
+    Volume (V)              29709
+    Difficilty (D)          104.7
+    Effort to implement (E) 3109800
+    Time to implement (T)   47 hours, 59 minutes
+    Est Delivered Bugs (B)  7
+    Cyclomatic Complexity   51
+    Maintainability (MI)    27
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-00044    65  0  
+00045-007FF  1957  22  
+00800-00FFF  2027  21  
+01000-017FF  2006  42  
+01800-01FFF   719  1329  
+
+
+

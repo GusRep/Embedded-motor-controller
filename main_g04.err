@@ -1,0 +1,4 @@
+>>> Warning 203 "main_g04.c" Line 725(1,1): Condition always TRUE
+>>> Warning 216 "main_g04.c" Line 730(0,1): Interrupts disabled during call to prevent re-entrancy:  (@DIVS3232)
+      Memory usage:   ROM=83%      RAM=47% - 89%
+      0 Errors,  2 Warnings.
